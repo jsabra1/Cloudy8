@@ -18,7 +18,7 @@
 
     <div id="content">
         <div id="left">
-            <h1>@Html.Sitecore().Field("Title")</h1>
+            <h2>@Html.Sitecore().Field("Title")</h2>
             @Html.Sitecore().Field("Body")
         </div>
 
@@ -30,7 +30,7 @@
     </div>
 
     <div id="footer">
-        @Html.Sitecore().Field("Copyright Text", Sitecore.Context.Database.GetItem("/sitecore/Content/Config"))
+        <p>@Html.Sitecore().Field("Copyright Text", Sitecore.Context.Database.GetItem("/sitecore/Content/Config"))</p>
     </div>
 
 </body>

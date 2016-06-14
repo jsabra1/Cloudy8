@@ -160,6 +160,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Images\back-footer.png" />
+    <Content Include="Content\Images\back.png" />
     <Content Include="Content\styles.css" />
     <Content Include="Content\Images\header.jpg" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />

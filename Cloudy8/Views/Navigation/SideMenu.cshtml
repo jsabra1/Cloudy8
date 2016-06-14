@@ -1,18 +1,24 @@
 ﻿@model RenderingModel
 
 @{
-    var productRootId = "{19CC9D46-FFEF-49D3-A2A0-2CE18A568A89}";
+    var productRootId = "{1A2A8C93-76C2-4B89-9360-1C0F12897EF8}";
     var productRootItem = Sitecore.Context.Database.GetItem(productRootId);
 }
 
-
-    @foreach (var item in productRootItem.Children.First().Children.ToArray())
+    <h2>What's New?</h2>
+    @foreach (var item in productRootItem.Children.ToArray())
     {
         <h3>@item.Name</h3>
-        <p>@item["Body"]</p>
-        <a href="@Sitecore.Links.LinkManager.GetItemUrl(@item)">
-            More...
-        </a>
-        @(item.Fields["{E147AC6E-F749-4AFF-ADED-897F43380B69}"] == null)
-
+        <p>
+            @item["Blurb"]
+        <a href="@Sitecore.Links.LinkManager.GetItemUrl(@item)"> More... </a>
+        </p>
     }
+
+<h2>Archive</h2>
+<ul>
+    <li><a href="#">One for all</a></li>
+    <li><a href="#">Can't stay for long</a></li>
+    <li><a href="#">Muskehounds</a></li>
+    <li><a href="#">Hong Kong Phooey</a></li>
+</ul>
