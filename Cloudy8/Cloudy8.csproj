@@ -166,7 +166,7 @@
     <Content Include="Content\Images\header.jpg" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
-    <Content Include="Views\Main.cshtml" />
+    <Content Include="Views\Layouts\Main.cshtml" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
