@@ -17,3 +17,11 @@ C:\Projects\Cloudy8\Cloudy8\obj\Debug\Cloudy8.dll
 C:\Projects\Cloudy8\Cloudy8\obj\Debug\Cloudy8.pdb
 C:\Projects\Cloudy8\Cloudy8\bin\System.Linq.Dynamic.dll
 C:\Projects\Cloudy8\Cloudy8\obj\Debug\Cloudy8.csprojResolveAssemblyReference.cache
+C:\Projects\Cloudy8\Cloudy8\bin\System.Web.Http.dll
+C:\Projects\Cloudy8\Cloudy8\bin\System.Net.Http.Formatting.dll
+C:\Projects\Cloudy8\Cloudy8\bin\Newtonsoft.Json.dll
+C:\Projects\Cloudy8\Cloudy8\bin\Newtonsoft.Json.xml
+C:\Projects\Cloudy8\Cloudy8\bin\System.Net.Http.Formatting.xml
+C:\Projects\Cloudy8\Cloudy8\bin\System.Web.Http.xml
+C:\Projects\Cloudy8\Cloudy8\bin\System.Web.Http.WebHost.dll
+C:\Projects\Cloudy8\Cloudy8\bin\System.Web.Http.WebHost.xml

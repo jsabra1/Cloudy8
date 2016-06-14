@@ -1,14 +1,18 @@
 ﻿@model RenderingModel
-<ol>
-    @foreach (var item in Model.Item.Parent.Children.ToArray())
+
+@{
+    var productRootId = "{19CC9D46-FFEF-49D3-A2A0-2CE18A568A89}";
+    var productRootItem = Sitecore.Context.Database.GetItem(productRootId);
+}
+
+
+    @foreach (var item in productRootItem.Children.First().Children.ToArray())
     {
-        if (@item["Show in Menu"] == "1")
-        {
-            <li>
-                <a href="@Sitecore.Links.LinkManager.GetItemUrl(@item)">
-                    @item["Title"]
-                </a>
-            </li>
-        }
+        <h3>@item.Name</h3>
+        <p>@item["Body"]</p>
+        <a href="@Sitecore.Links.LinkManager.GetItemUrl(@item)">
+            More...
+        </a>
+        @(item.Fields["{E147AC6E-F749-4AFF-ADED-897F43380B69}"] == null)
+
     }
-</ol>

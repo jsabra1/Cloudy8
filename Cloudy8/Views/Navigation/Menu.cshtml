@@ -1,4 +1,6 @@
-﻿    <ul>
+﻿@model RenderingModel
+
+    <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#">News</a></li>
         <li><a href="#">Blog</a></li>
@@ -6,4 +8,16 @@
         <li><a href="#">About CWS</a></li>
         <li><a href="#">Contact</a></li>
     </ul>
-
+@*<ol class="sidemenu">
+    @foreach (var item in Model.Item.Parent.Children.ToArray())
+    {
+        if (@item["Show in Menu"] == "1")
+        {
+            <li>
+                <a href="@Sitecore.Links.LinkManager.GetItemUrl(@item)">
+                    @item["Title"]
+                </a>
+            </li>
+        }
+    }
+</ol>*@
