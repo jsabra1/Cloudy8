@@ -5,26 +5,22 @@
 </head>
 <body>
     <div id="header">
-        <h1>Cloudy Water Sports</h1>
+        test
+        <h1>Cloudy Water sdll Sports</h1>
     </div>
 
     <div id="menu">
-        @Html.Sitecore().Placeholder("header-menu")
         @Html.Sitecore().CurrentItem.Name
-
+        @Html.Sitecore().Placeholder("header-menu")
     </div>
 
     <div id="content">
         <div id="left">
-
-            @*<h2>@Html.Sitecore().Field("Title")</h2>
-                @Html.Sitecore().Field("Body")*@
+        @Html.Sitecore().Placeholder("main-content")
         </div>
 
         <div id="right">
-
-            @Html.Sitecore().Rendering("{F3AC68B4-3454-41CB-8F6B-38C36D7D2289}")
-
+         @Html.Sitecore().Placeholder("right-content")
         </div>
     </div>
 

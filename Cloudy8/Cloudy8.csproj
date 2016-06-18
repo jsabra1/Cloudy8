@@ -170,9 +170,8 @@
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Views\Navigation\Menu.cshtml" />
-    <Content Include="Views\WhatsNew.cshtml" />
     <Content Include="Views\Navigation\SideMenu.cshtml" />
+    <Content Include="Views\Content\TitleAndBody.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

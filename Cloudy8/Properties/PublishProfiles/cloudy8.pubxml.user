@@ -14,10 +14,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/07/2016 14:38:33</publishTime>
     </File>
     <File Include="bin/Cloudy8.dll">
-      <publishTime>06/14/2016 12:14:59</publishTime>
+      <publishTime>06/18/2016 21:54:23</publishTime>
     </File>
     <File Include="bin/Cloudy8.pdb">
-      <publishTime>06/14/2016 12:14:59</publishTime>
+      <publishTime>06/18/2016 21:54:23</publishTime>
     </File>
     <File Include="bin/Newtonsoft.Json.dll">
       <publishTime>03/08/2014 20:33:56</publishTime>
@@ -280,11 +280,17 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="scripts/ai.0.22.9-build00167.min.js">
       <publishTime>06/07/2016 14:34:44</publishTime>
     </File>
+    <File Include="Views/Content/TitleAndBody.cshtml">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Views/Layouts/Main.cshtml">
+      <publishTime>06/18/2016 21:57:16</publishTime>
+    </File>
     <File Include="Views/main.cshtml">
       <publishTime>06/14/2016 12:03:26</publishTime>
     </File>
     <File Include="Views/Navigation/Menu.cshtml">
-      <publishTime>06/12/2016 18:13:45</publishTime>
+      <publishTime>06/14/2016 16:32:52</publishTime>
     </File>
     <File Include="Views/Navigation/SideMenu.cshtml">
       <publishTime>06/14/2016 12:27:41</publishTime>
