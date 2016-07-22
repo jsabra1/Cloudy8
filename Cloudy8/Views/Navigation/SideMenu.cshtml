@@ -4,7 +4,6 @@
     var productRootId = "{1A2A8C93-76C2-4B89-9360-1C0F12897EF8}";
     var productRootItem = Sitecore.Context.Database.GetItem(productRootId);
 }
-
     <h2>What's New?</h2>
     @foreach (var item in productRootItem.Children.ToArray())
     {

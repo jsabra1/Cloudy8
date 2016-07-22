@@ -1,0 +1,37 @@
+﻿@using Glass.Mapper.Sc.Mvc 
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <link href="Content/styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="header">        
+        <h1>Cloudy Water Sports</h1>
+        <figure class="header" style="background: #FFFBFD url(images/header.jpg)">
+            @if (Sitecore.Context.PageMode.IsExperienceEditor)
+            {
+                @@RenderImage(m => m.Background_Image, new { @class = "page-editor-editable-image" }, isEditable: true);
+            }
+        </figure>
+    </div>
+
+    <div id="menu">        
+        @Html.Sitecore().Placeholder("header-menu")
+    </div>
+
+    <div id="content">
+        <div id="left">
+        @Html.Sitecore().Placeholder("main-content")
+        </div>
+
+        <div id="right">
+        @Html.Sitecore().Placeholder("right-content")
+        </div>
+    </div>
+
+    <div id="footer">
+        <p>@Html.Sitecore().Field("Copyright Text", Sitecore.Context.Database.GetItem("/sitecore/Content/Config"))</p>
+    </div>
+
+</body>
+</html>

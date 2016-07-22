@@ -25,3 +25,17 @@ C:\Projects\Cloudy8\Cloudy8\bin\System.Net.Http.Formatting.xml
 C:\Projects\Cloudy8\Cloudy8\bin\System.Web.Http.xml
 C:\Projects\Cloudy8\Cloudy8\bin\System.Web.Http.WebHost.dll
 C:\Projects\Cloudy8\Cloudy8\bin\System.Web.Http.WebHost.xml
+C:\Projects\Cloudy8\Cloudy8\bin\Castle.Core.dll
+C:\Projects\Cloudy8\Cloudy8\bin\Castle.Windsor.dll
+C:\Projects\Cloudy8\Cloudy8\bin\Glass.Mapper.dll
+C:\Projects\Cloudy8\Cloudy8\bin\Glass.Mapper.Sc.dll
+C:\Projects\Cloudy8\Cloudy8\bin\Glass.Mapper.Sc.Mvc.dll
+C:\Projects\Cloudy8\Cloudy8\bin\WebActivatorEx.dll
+C:\Projects\Cloudy8\Cloudy8\bin\Castle.Core.xml
+C:\Projects\Cloudy8\Cloudy8\bin\Castle.Windsor.xml
+C:\Projects\Cloudy8\Cloudy8\bin\Glass.Mapper.pdb
+C:\Projects\Cloudy8\Cloudy8\bin\Glass.Mapper.xml
+C:\Projects\Cloudy8\Cloudy8\bin\Glass.Mapper.Sc.pdb
+C:\Projects\Cloudy8\Cloudy8\bin\Glass.Mapper.Sc.xml
+C:\Projects\Cloudy8\Cloudy8\bin\Glass.Mapper.Sc.Mvc.pdb
+C:\Projects\Cloudy8\Cloudy8\bin\Glass.Mapper.Sc.Mvc.xml
