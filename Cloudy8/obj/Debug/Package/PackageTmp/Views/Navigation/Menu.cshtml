@@ -1,0 +1,39 @@
+﻿@model RenderingModel
+<ul>
+    @{
+        var productRootId = "{3A9EEDAA-4DCE-4123-8503-393AE0E7809A}";
+        var productRootItem = Sitecore.Context.Database.GetItem(productRootId);
+    }
+
+    @foreach (var item in productRootItem.Children.ToArray())
+    {
+        if (@item["Show in Menu"] == "1")
+        {
+            <li>
+                <a href="@Sitecore.Links.LinkManager.GetItemUrl(@item)">
+                    @item["Title"]
+                </a>
+            </li>
+        }
+    }
+</ul>
+
+@*<ul>
+    @{
+        var startItem = Sitecore.Context.Database.GetItem(Sitecore.Context.Site.StartPath);
+        Console.WriteLine(startItem.Name);
+    }
+
+    @foreach (var item in Model.Item.Children.ToArray())
+    {
+        if (@item["Show in Menu"] == "1")
+        {
+            <li>
+                <a href="@Sitecore.Links.LinkManager.GetItemUrl(@item)">
+                    @item["Title"]
+                </a>
+            </li>
+        }
+    }
+
+</ul>*@
