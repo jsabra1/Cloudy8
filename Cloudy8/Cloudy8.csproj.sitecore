@@ -1,5 +1,8 @@
 ﻿<Project>
   <PropertyGroup>
-    <Site Server="cloudy8" UserName="sitecore\admin" IsRemoteSitecore="False" />
+    <Site Server="clo" UserName="sitecore\admin" IsRemoteSitecore="False" />
   </PropertyGroup>
+  <File Include="Models\BreadcrumbItem.cs" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{B0023EB5-0DEC-4DD6-BDF6-006AA4550F89}</Item>
+  </File>
 </Project>

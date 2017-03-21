@@ -180,7 +180,7 @@
     </Content>
     <Content Include="Views\Navigation\SideMenu.cshtml" />
     <Content Include="Views\Content\TitleAndBody.cshtml" />
-    <Content Include="Views\Navigation\Menu.cshtml" />
+    <Content Include="Views\Navigation\Navigation.cshtml" />
     <Content Include="App_Config\Include\001.Sitecore.Speak.Important.config" />
     <Content Include="App_Config\Include\CES\Sitecore.CES.config" />
     <Content Include="App_Config\Include\CES\Sitecore.CES.DeviceDetection.CheckInitialization.config.disabled" />
@@ -378,11 +378,14 @@
     <Content Include="App_Config\Include\Unicorn\Unicorn.CustomSerializationFolder.config.example" />
     <Content Include="App_Config\Include\Unicorn\Unicorn.Configs.NewItemsOnly.example" />
     <Content Include="App_Config\Include\Unicorn\Unicorn.Configs.Dependency.config.example" />
-    <Content Include="App_Config\Include\Unicorn\Unicorn.Configs.Default.example" />
+    <Content Include="App_Config\Include\Unicorn\Unicorn.Configs.Default.example">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="App_Config\Include\Unicorn\Unicorn.config" />
     <Content Include="App_Config\Include\Unicorn\Unicorn.AutoPublish.config" />
     <Content Include="App_Config\Include\Rainbow.config" />
     <None Include="App_Config\Include\Unicorn\Unicorn.Configs.Default.config" />
+    <Content Include="Views\Navigation\Breadcrumb.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -392,6 +395,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Models\BreadcrumbItem.cs" />
+    <Compile Include="Models\BreadcrumbItemList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -401,7 +406,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
-    <Folder Include="Models\" />
     <Folder Include="Views\Layouts\" />
   </ItemGroup>
   <ItemGroup>
