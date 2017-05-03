@@ -1,4 +1,4 @@
 # Cloudy8
 A Simple Static Site Brought into Sitecore
 
-Link to the original page http://www.oswd.org/design/preview/id/3698/ 
+Link to the original page http://static.oswd.org/designs/3698/cloudywatersports_/index.html
