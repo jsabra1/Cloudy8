@@ -83,4 +83,6 @@ C:\Projects\Cloudy8\Cloudy8\bin\System.Web.Http.xml
 C:\Projects\Cloudy8\Cloudy8\bin\System.Web.Http.WebHost.xml
 C:\Projects\Cloudy8\Cloudy8\obj\Debug\Cloudy8.dll
 C:\Projects\Cloudy8\Cloudy8\obj\Debug\Cloudy8.pdb
-C:\Projects\Cloudy8\Cloudy8\obj\Debug\Cloudy8.csprojResolveAssemblyReference.cache
+C:\Projects\Cloudy8\Cloudy8\obj\Debug\Cloudy8.csprojAssemblyReference.cache
+C:\Projects\Cloudy8\Cloudy8\obj\Debug\Cloudy8.csproj.CoreCompileInputs.cache
+C:\Projects\Cloudy8\Cloudy8\obj\Debug\Cloudy8.csproj.CopyComplete
